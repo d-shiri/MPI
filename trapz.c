@@ -1,4 +1,6 @@
-// NOTE1: compile the file with -lm -ldl flags
+// Author: Dariyoush Shiri
+// Trapzoidal rule implementation in MPI with MPI_Send, MPI_Recv
+// NOTE1: compile the file with -lm flag
 // NOTE2: run the file as mpirun -np 4 a.out n.txt
 
 #include <stdio.h>
